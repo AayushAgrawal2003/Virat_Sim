@@ -1,0 +1,3 @@
+rosrun gazebo_ros spawn_model -file `rospack find vajra_sim`/urdf/vajra.urdf -urdf -x 0 -y 0 -z 0 -model vajra1
+roslaunch vajra_sim my_world.launch
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
